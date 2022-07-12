@@ -2,24 +2,33 @@ import logo from './logo.svg';
 import './App.css';
 
 function App() {
+  const Vehicle = {
+    Car : 'car',
+    Bike : 'bike',
+    Truck : 'truck'
+};
+
+Object.freeze(Vehicle);
+
+if (Object.values(Vehicle).includes('rajesh')){
+  console.log("found");
+
+} else {
+  console.log("not found");
+}
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <div>
+          <h1 className="App-header" >Hello Rajesh</h1>
+        </div>
       </header>
     </div>
   );
 }
 
 export default App;
+export const temp = @font-face {
+  font-family: myFirstFont;
+  src: url(sansation_light.woff);
+}

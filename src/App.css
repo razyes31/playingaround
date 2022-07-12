@@ -22,6 +22,7 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+  font-family: 'Rajesh' ;
 }
 
 .App-link {
@@ -36,3 +37,12 @@
     transform: rotate(360deg);
   }
 }
+
+@font-face {
+  font-family: "Rajesh";
+  src: url("./fonts/AloeveraRegular.woff2") format("woff2"),
+    url("./fonts/AloeveraRegular.woff") format("woff");
+  font-weight: normal;
+  font-display: swap;
+}
+
